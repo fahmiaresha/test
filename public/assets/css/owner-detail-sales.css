@@ -1,0 +1,57 @@
+.card {
+    width: 100%;
+}
+
+.card-img-top {
+    height: 200px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img-top > .nama-sales {
+    margin-top: -7px;
+}
+
+.card-body-profile {
+    background-color: rgb(223, 233, 233);
+}
+
+table {
+    text-align: left;
+    font-size: 0.9em;
+}
+
+.profil-table tr {
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+.label-detail {
+    border-right: 8px solid transparent;
+}
+
+.rekap-table {
+    text-align: center;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+
+    table {
+        font-size: 0.85em;
+    }
+
+}

@@ -1,0 +1,57 @@
+table {
+    text-align: center;
+    font-weight: 500;   
+}
+
+table td {
+    word-wrap: break-word !important;
+    white-space: normal !important;
+}
+
+.input-num-sm {
+    width: 50%;
+    text-align: center;
+}
+
+.select2-container .select2-selection--single {
+    height: 2.5em !important;
+    display: flex;
+    align-items: center;
+}
+
+/* Disable arrow button pada input nomor telepon - Chrome, Safari, Edge, Opera */
+.num-without-style::-webkit-outer-spin-button,
+.num-without-style::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Disable arrow button pada input nomor telepon - Firefox */
+.num-without-style {
+  -moz-appearance: textfield;
+}
+
+.judul-tabel {
+    display: flex;
+}
+
+.judul-tabel button:hover,
+.judul-tabel a:hover {
+    background-color: rgb(68, 8, 38) !important;
+}
+
+@media only screen and (max-width: 600px) {
+
+    table {
+        font-size: 1em;
+    }
+
+    .judul-tabel {
+        display: block;
+    }
+
+    .judul-tabel button {
+        margin-top: 10px;
+    }
+
+}

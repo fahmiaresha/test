@@ -1,0 +1,61 @@
+.logo-kemiri {
+    height: 30px;
+}
+
+.kemiri-title {
+    font-size: 25px;
+}
+
+.lighter-text {
+    font-weight: lighter;
+}
+
+.detail-perusahaan {
+    font-size: 15px;
+    padding-left: 7px;
+}
+
+.nomor-surat-container {
+    text-align: center;
+}
+
+.nomor-surat {
+    font-weight: lighter;
+    font-size: 0.8rem;
+}
+
+.detail-extra, .detail-customer {
+    text-align: left;
+    font-size: 0.8rem;
+}
+
+.pendahuluan {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+}
+
+.pendahuluan span {
+    font-weight: bold;
+}
+
+.detail-barang {
+    text-align: center;
+    font-size: 0.5rem;
+}
+
+table td {
+    word-wrap: break-word !important;
+    white-space: normal !important;
+}
+
+.ttd-container {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.admin-gudang-title {
+    font-weight: lighter;
+    font-size: 0.7rem;
+}

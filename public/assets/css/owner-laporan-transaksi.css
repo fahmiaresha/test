@@ -1,0 +1,23 @@
+.card-1 {
+    border: 0.5px solid black;
+    box-shadow: 5px 6px #888888;
+}
+
+.chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-subtitle {
+    margin-bottom: 20px;
+    margin-top: -20px;
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+@media only screen and (max-width: 600px) {
+    .chart-container {
+        display: block;
+    }
+}

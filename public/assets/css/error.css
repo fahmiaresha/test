@@ -1,0 +1,55 @@
+#app {
+    position: relative;
+    background-color: #cccccc;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#content {
+    margin: 0;
+    position: absolute;
+    height: 85%;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.main-content {
+    position: absolute;
+    height: 100%;
+}
+
+.component .col {
+    display: flex;
+    justify-content: center;
+}
+
+.error-code {
+    text-shadow: #474747 3px 5px 2px;
+    font-size: 10em;
+}
+
+.error-message {
+    text-align: center;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #content {
+        width: 80%;
+    }
+
+    .error-code {
+        font-size: 8em;
+    }
+
+    .error-message {
+        font-size: 1em;
+        text-align: center;
+    }
+}

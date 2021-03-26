@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+#app {
+    position: relative;
+}
+
+#app img {
+    position: absolute;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+    #app img {
+        width: 100%;
+        margin-left: unset;
+        margin-top: 50%;
+    }
+}
